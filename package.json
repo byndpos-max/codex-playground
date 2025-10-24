@@ -1,0 +1,14 @@
+{
+  "name": "pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "go":"python3 convert_statement.py Statement_23OCT2025.pdf --password M00382514 --csv statement.csv --excel statement.xlsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.3"
+}
